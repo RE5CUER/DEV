@@ -6,7 +6,7 @@ postgres:
 
 app:
   port: 3003
-  image: re5cuer/django-pg-docker-tutorial:61c3836ad1bf7635a0533615ed4045eb07ed0cf2
+  image: re5cuer/django-pg-docker-tutorial:latest
   environment:
     DB_HOST: db
     DB_NAME: tutorial-dev
